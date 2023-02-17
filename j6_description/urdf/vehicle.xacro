@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- load parameter -->
+  <xacro:property name="vehicle_info" value="${xacro.load_yaml('$(find j6_description)/config/vehicle_info.param.yaml')}"/>
+
+  <!-- vehicle body -->
+  <link name="base_link">
+    <visual>
+      <origin rpy="0 0 0" xyz="2.092 0 1.53"/>
+      <geometry>
+        <box size="7.181 2.3 3.0"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1.0 0.0 0.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://j6_description/mesh/j6.dae" scale="1 1 1"/>
+      </geometry>
+    </visual>
+  </link> -->
+
+</robot>
