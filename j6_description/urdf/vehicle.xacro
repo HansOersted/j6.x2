@@ -7,23 +7,11 @@
   <!-- vehicle body -->
   <link name="base_link">
     <visual>
-      <origin rpy="0 0 0" xyz="2.092 0 1.53"/>
+      <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <box size="7.181 2.3 3.0"/>
+        <mesh filename="package://j6_description/mesh/BYD_J6.dae" scale="1 1 1"/>
       </geometry>
-      <material name="red">
-        <color rgba="1.0 0.0 0.0 1.0"/>
-      </material>
     </visual>
   </link>
-
-  <!-- <link name="base_link">
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <mesh filename="package://j6_description/mesh/j6.dae" scale="1 1 1"/>
-      </geometry>
-    </visual>
-  </link> -->
 
 </robot>
