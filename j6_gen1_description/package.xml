@@ -1,17 +1,14 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>j6_launch</name>
+  <name>j6_gen1_description</name>
   <version>0.1.0</version>
-  <description>The j6_launch package</description>
+  <description>The j6_gen1_description package</description>
 
   <maintainer email="shinnosuke.hirakawa@tier4.jp">Shinnosuke Hirakawa</maintainer>
   <license>Apache2</license>
 
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
-
-  <!-- <exec_depend>j6_interface</exec_depend> -->
-  <exec_depend>individual_params</exec_depend>
-  <exec_depend>raw_vehicle_cmd_converter</exec_depend>
+  <exec_depend>xacro</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>

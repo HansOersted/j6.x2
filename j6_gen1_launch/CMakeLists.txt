@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(j6_launch)
+project(j6_gen1_launch)
 
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 17)

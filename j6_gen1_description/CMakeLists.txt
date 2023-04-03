@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(j6_description)
+project(j6_gen1_description)
 
 add_compile_options(-std=c++14)
 
